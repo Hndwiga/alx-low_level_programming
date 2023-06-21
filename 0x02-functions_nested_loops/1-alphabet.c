@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * prnt_alphabet - Entry point
+ * print_alphabet - Entry point
  * Return:0
  */
 
@@ -10,7 +10,7 @@ void print_alphabet(void)
 {
 	char c = 'a';
 
-	while (c <= 'Z')
+	while (c <= 'z')
 	{
 		_putchar(c);
 		c++;
